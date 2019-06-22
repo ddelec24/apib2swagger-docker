@@ -16,7 +16,7 @@ Convert [API Blueprint][] to [Swagger][] specification.
 **note** the working directory is `/docs`
 
 ```bash
-$ docker run -it --rm -v $(pwd):/docs cbarraford/apib2swagger -i blueprint.apib -o swagger.json
+$ docker run -it --rm -v $(pwd):/docs apib2swagger:lastest -i blueprint.apib -o swagger.json
 ```
 
 [API Blueprint]: https://apiblueprint.org/ "API Blueprint"
